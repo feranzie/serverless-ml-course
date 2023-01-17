@@ -2,8 +2,8 @@ name: fraud-feature-pipelines
 
 on:
   workflow_dispatch:
-#  schedule:
-#    - cron: '11 11 * * *'
+  schedule:
+    - cron: '16 18 * * *'
 
 jobs:
   test_schedule:
